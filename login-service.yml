@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: Login-service
+info:
+  app:
+    name: Login-Service
+    description:
+    version: 1.0.0
