@@ -9,6 +9,13 @@ eureka:
     prefer-ip-address: true
 management:
   endpoints:
+  endpoint:
+    info:
+      enable: true
     web:
       exposure:
         include: "*"
+    circuitbreakers:
+      enabled: true
+  health:
+    show-details: always

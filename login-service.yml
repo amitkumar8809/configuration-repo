@@ -8,3 +8,12 @@ info:
     name: Login-Service
     description:
     version: 1.0.0
+logging:
+  level:
+    httpclient:
+      wire: DEBUG
+pivotal:
+  loginservice:
+    name: Login-service
+  employeeservice:
+    name: Employee-Service
